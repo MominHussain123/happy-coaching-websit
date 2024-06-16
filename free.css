@@ -1,0 +1,286 @@
+
+.free__first__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.free__first__section .box__container .content,
+.free__first__section .box__container .image{
+    flex: 1 1 40rem;
+}
+.free__first__section .box__container .image{
+    max-width: 400px;
+    
+}
+.free__first__section .box__container .image img{
+    width: 100%;
+    height: auto;
+}
+
+.free__first__section .box__container .image .circle{
+    width: 80px;
+    height: 80px;
+    background-color: #E66F26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: right;
+    margin-top: -3rem;
+    margin-right: -3rem;
+}
+.free__first__section .box__container .image .circle p{
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.free__first__section .box__container .content input{
+    width: 50%;
+    padding: 1rem;
+    border: 1px solid rgb(77, 76, 76);
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    margin: 1rem 0;
+}
+.free__first__section .box__container .content .btn{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.free__first__section .box__container .content p a{
+    text-decoration: underline;
+}
+.free__first__section .box__container .content p a:hover{
+    color: blue;
+}
+.free__first__section .box__container .content input:focus{
+    border: 2px solid blue;
+    animation: outline 2s linear infinite;
+}
+@keyframes outline{
+ 10%{
+    border-color: brown;
+ }
+ 20%{
+     border-color: yellow;
+    }
+    30%{
+        border-color: turquoise;
+    }
+}
+:root{
+    --h1-fontsize:4rem;
+}
+
+h1{
+    font-size: var(--h1-fontsize);
+}
+.free__second__section .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.free__second__section .heading .btn{
+    width: 150px;
+}
+.free__second__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 8rem 0px;
+    line-height: 3rem;
+}
+.free__second__section .box__container .box{
+    max-width: 400px;
+    min-width: 100px;
+    height: auto;
+    text-align: center;
+}
+.free__second__section .box__container .box img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.free__second__section .box__container .box .icons i{
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.free__third__section .content__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.free__third__section .content__box .box{
+    flex: 1 1 30rem;
+}
+.free__third__section .content__box .box2 .column{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.free__third__section .content__box .box2 .column i{
+    font-size: 2rem;
+}
+
+.free__third__section .video__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free__third__section .video__box iframe{
+    width: 70vw;
+    height: 35vw;
+    border-radius: 2rem;
+    
+}
+.free__fourth__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.free__fourth__section .content__box{
+    text-align: center;
+    width: 80%;  
+}
+.free__fourth__section .content__box span{
+    color: #E66F26;
+}
+.free__fourth__section .content__box p{
+    line-height: 3rem;
+}
+.free__fourth__section .content__box .btn{
+    margin: 2rem 0;
+}
+.free__fourth__section .content__box .icons i{
+    font-size: 2rem;
+    color: gold;
+    margin: 1rem 0;
+}
+
+.free__fourth__section .image img{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem; 
+    animation: animateimage linear 5s infinite;
+    position: absolute;
+}
+.free__fourth__section .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free__fourth__section .image .img1{
+    left: 90%;
+    width: 6rem;
+    height: 6rem;
+    margin-top: -20rem;
+}
+.free__fourth__section .image .img2{
+    margin-top: -20rem;
+    left: 10%;
+    width: 6rem;
+    height: 6rem;
+}
+.free__fourth__section .image .img3{
+    left: 10%;
+    width: 4rem;
+    height: 4rem;
+    
+}
+.free__fourth__section .image .img4{
+    width: 8rem;
+    height: 8rem;
+    left: 90%;
+}
+.free__fourth__section .image .img5{
+    width: 4rem;
+    left: 85%;
+    height: 4rem;
+    margin-top: 20rem;
+}
+.free__fourth__section .image .img6{
+    margin-top: 20rem;
+    width: 8rem;
+    left: 15%;
+    height: 8rem;
+} 
+
+@keyframes animateimage{
+    10%{
+       margin-top: -1rem;
+    }
+    100%{
+        margin-bottom: -0rem;
+   }
+
+}
+@media(max-width:450px){
+    .free__first__section .box__container .content .btn,
+    .free__first__section .box__container .content input{
+        width: 100%;
+    } 
+    h1{
+        font-size: 3rem;
+    }
+    
+}
+@media(max-width:763px){
+    .free__fourth__section .image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+    .free__fourth__section .content__box{
+        text-align: center;
+        width: 100%;  
+    }
+    .free__fourth__section .image img{
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem; 
+        animation: none;       
+    }
+    .free__fourth__section .image .img1{
+        width: 4rem;
+        height: 4rem;
+        margin-top: 3rem;
+    }
+    .free__fourth__section .image .img5{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 3rem;
+    }
+    .free__fourth__section .image .img6{
+        margin-top: 3rem;
+    }
+    .free__fourth__section .image .img3{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .free__fourth__section .image .img1,
+    .free__fourth__section .image .img2,
+    .free__fourth__section .image .img3,
+    .free__fourth__section .image .img4,
+    .free__fourth__section .image .img5,
+    .free__fourth__section .image .img6{
+        position: static;
+        margin: 0;
+    }
+
+}

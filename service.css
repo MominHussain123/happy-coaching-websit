@@ -1,0 +1,109 @@
+
+:root{
+    --btn-color:#E66F26;
+    --para-color:#4A556C;
+    --heading-color :#370D50;   
+    --h1-fontsize:4rem;
+    --h2-fontsize:3.5rem;
+    --h3-fontsize:2.5rem;
+    --p-fontsize:1.5rem;
+    --white-color:#fff;
+    --black-color:#101828;
+}
+
+.service__first__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.service__first__section .box__container .content,
+.service__first__section .box__container .image{
+    flex: 1 1 40rem;
+}
+.service__first__section .box__container .image{
+    background-image: url(./image/service\ image.webp);
+    height: 90vh;
+    max-width: 400px;
+    min-width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.service__second__section .heading__box{
+    width: 100%;
+}
+.service__second__section .heading__box h1{
+    min-width: 100px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service__second__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.service__second__section .box__container .box{
+    max-width: 400px;
+    min-width: 100px;
+}
+
+.service__second__section .box__container .box i{
+    font-size: 3rem;
+    margin: 3rem 0;
+    color: #370D50;
+}
+.service__second__section .box__container .box h3{
+    color:var(--btn-color);
+}
+
+.service__second__section .box__container .box .highlight{
+    color: var(--heading-color);
+}
+
+.service__third__section .heading__box{
+    max-width:500px;
+    min-width:100px;
+    margin: 5rem 0;
+}
+
+
+.service__third__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 8rem;
+}
+.service__third__section .box__container .content__box,
+.service__third__section .box__container .image__box{
+    flex:1 1 30rem;
+}
+.service__third__section .box__container .image__box{
+    background-image:url(./image/home\ image.jpg);
+    max-width: 400px;
+    min-width:100px;
+    height: 80vh;
+    background-size:cover;
+    background-position:center;
+}
+.service__third__section .box__container .content__box .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.service__third__section .box__container .content__box .row i{
+    font-size:2rem;
+}

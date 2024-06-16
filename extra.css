@@ -1,0 +1,261 @@
+.Extra__first__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.Extra__first__section .box__container .content,
+.Extra__first__section .box__container .image{
+    flex: 1 1 35rem;
+}
+.Extra__first__section .box__container .image{
+    background-image: url(./image/Extra\ Salespage.jpg);
+    height: 90vh;
+    max-width: 400px;
+    min-width: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+.Extra__first__section .box__container .content .btn{
+    margin-top: 2rem;
+}
+
+.Extra__second__section .heading__box{
+    width: 500px;
+}
+
+.Extra__second__section .box__container{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin: 5rem 0rem;
+    text-align: center;
+}
+
+.Extra__second__section .box__container .box{
+    width: 300px;
+}
+.Extra__second__section .box__container .box img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1rem 0
+}
+
+.Extra__second__section .box__container .box .icons i{
+    font-size: 2rem;
+    color: gold;
+    margin: 3rem 0;
+}
+.Extra__third__section .heading__box{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Extra__third__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    text-align: center;
+    row-gap: 6rem;
+    margin: 3rem 0rem;
+}
+.Extra__third__section .box__container .box h3{
+    font-size: 2rem;
+}
+.Extra__third__section .box__container .box{
+    width: 300px;
+}
+.Extra__third__section .box__container .box i{
+    font-size: 2rem;
+    color: #333461;
+}
+.Extra__fourth__section .box__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.Extra__fourth__section .box__container .box{
+    flex: 1 1 35rem;
+}
+.Extra__fourth__section .box__container .box .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+.Extra__fourth__section .box__container .box .column i{
+    font-size: 2rem;
+    color: gold;
+}
+
+.Extra__fourth__section .video__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Extra__fourth__section .video__box iframe{
+    width: 80vw;
+    border-radius: 2rem;
+    height: 45vw;
+}
+
+.Extra__fifth__section .heading__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Extra__fifth__section .heading__box .content{
+    width: 80%;
+}
+.Extra__fifth__section .heading__box .btn{
+    width: 150px;
+}
+.Extra__fifth__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 2.5em;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.Extra__fifth__section .box__container .box{
+    width: 400px;
+}
+.Extra__fifth__section .box__container .box img{
+    width: 8rem;
+    height: 8rem;
+    margin: 2rem 0;
+    border-radius: 50%;
+}
+
+.Extra__sixth__section .heading__box{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.Extra__sixth__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+}
+.Extra__sixth__section .box__container .box{
+    flex: 1 1 25rem;
+}
+.Extra__sixth__section .box__container .box .head{
+    text-align: center;
+    margin: 4rem 0;
+}
+.Extra__sixth__section .box__container .box .column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.Extra__seveth__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.Extra__seveth__section .box__container .image{
+    background-image: url(./image/Complimentary\ image.jpg);
+    max-width: 500px;
+    min-width: 100px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 2rem;
+}
+.Extra__seveth__section .box__container .content,
+.Extra__seveth__section .box__container .image{
+    flex: 1 1 30rem;
+}
+.Extra__seveth__section .box__container .content .btn{
+    width: 20rem;
+    margin: 2rem 0;
+}
+.Extra__eight__section .box__container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;  
+}
+.Extra__eight__section .box__container .box{
+    margin: 0 auto;
+    width: 80%;
+}
+.Extra__ninth__section .box__container .box .question{
+    display: flex;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    }
+.Extra__ninth__section .box__container .box .answer{
+    width: 80%;
+    margin: 0 auto;    
+}
+.Extra__ninth__section .box__container .box .question:hover{
+        border-bottom: 1px solid black;
+}
+.Extra__ninth__section .box__container .box .question i{
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+.Extra__ninth__section .box__container .box .question .fa-minus{
+   display: none;
+}
+.Extra__ninth__section .box__container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.Extra__ninth__section .heading__box{
+    text-align: center;
+}
+
+.Extra__ninth__section .submit__box{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.Extra__ninth__section .submit__box .btn{
+    width: 15rem;
+    margin: 1rem 0;
+}
+.Extra__eight__section  .box__container .box img{
+    filter: hue-rotate(8deg);
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width:763px){
+    .Extra__sixth__section .heading__box,
+    .Extra__eighth__section .box__container .box,
+    .Extra__second__section .heading__box{
+        width: 100%;
+    }
+    
+}
