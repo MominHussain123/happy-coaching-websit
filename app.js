@@ -49,3 +49,10 @@ function plus(word) {
         helo4.innerHTML = ""
     } 
 }
+
+
+function getvalue() {
+    let input = document.getElementById('input')
+    console.log(input.value);
+    input.value = ''
+}

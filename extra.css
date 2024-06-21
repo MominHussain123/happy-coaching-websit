@@ -257,6 +257,13 @@
     .Extra__second__section .heading__box{
         width: 100%;
     }   
+    .Extra__ninth__section .box__container .box .question h3{
+        font-size: 1.8rem;
+    }
+    .Extra__ninth__section .box__container .box .answer,
+    .Extra__ninth__section .box__container .box .question {
+        width: 100%;
+    }
 }
 
 
@@ -264,8 +271,5 @@
     .Extra__fourth__section .video__box iframe{
         width: 100%;
         height: 20rem;
-    }
-    .Extra__ninth__section .box__container .box .question h3{
-        font-size: 1.5rem;
     }
 }
