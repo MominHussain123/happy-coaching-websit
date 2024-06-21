@@ -472,7 +472,6 @@ header .navbar ul li .click{
         .navbar ul  {
            flex-flow: column;
            justify-content: left;
-    
         }
         .navbar .head{
             background-color: transparent;
@@ -506,12 +505,11 @@ header .navbar ul li .click{
             font-size: 60%;
         }
         section{
-            padding: 2rem 5%;
+            padding: 2rem 3%;
         }
         .home__sixth__section .box__container .image{
             background-position: center;
         }
-    
     }
 
     @media (max-width:420px){
