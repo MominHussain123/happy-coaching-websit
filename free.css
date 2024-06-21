@@ -1,4 +1,19 @@
 
+
+
+:root{
+    --btn-color:#E66F26;
+    --para-color:#4A556C;
+    --heading-color :#401758;   
+    --h1-fontsize:4rem;
+    --h2-fontsize:3.5rem;
+    --h3-fontsize:2.5rem;
+    --p-fontsize:1.5rem;
+    --white-color:#fff;
+    --black-color:#101828;
+}
+
+
 .free__first__section .box__container{
     display: flex;
     justify-content: center;
@@ -54,22 +69,11 @@
     text-decoration: underline;
 }
 .free__first__section .box__container .content p a:hover{
-    color: blue;
+    color: ;
 }
 .free__first__section .box__container .content input:focus{
     border: 2px solid blue;
-    animation: outline 2s linear infinite;
-}
-@keyframes outline{
- 10%{
-    border-color: brown;
- }
- 20%{
-     border-color: yellow;
-    }
-    30%{
-        border-color: turquoise;
-    }
+
 }
 :root{
     --h1-fontsize:4rem;

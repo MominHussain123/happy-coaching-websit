@@ -64,9 +64,6 @@ h2{
 p{font-size: var(--p-fontsize);
     color: var(--para-color);  
 }
-body{
-    width: 100vw;
-}
 span{
     color: var(--btn-color);
 }
@@ -131,6 +128,12 @@ header .logo a{
     margin: 0;
     font-size: var(--p-fontsize);
     color:var(--para-color);
+    }
+    header .navbar ul li a:hover{
+      padding-bottom: .5rem;
+      transition: 1s linear;
+      color: var(--heading-color);
+      box-shadow: 2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color),2px 2px var(--btn-color);
     }
 header .navbar ul li #head{
     color: var(--white-color);
@@ -361,6 +364,10 @@ header .navbar ul li .click{
     flex: 1 1 400px;
 }
 
+/* .home__sixth__section .box__container .content button{ */
+    /* margin: 1rem 0; */
+/* } */
+
 .home__sixth__section .box__container .image{
     background-image: url(./image/Complimentary\ image.jpg);
     background-size: cover;
@@ -466,7 +473,7 @@ header .navbar ul li .click{
             transition: 1s linear;
             background-color: var(--white-color);
             padding: 2rem;
-            box-shadow:  0 1px 1px rgb(0, 0, 0,1);
+            box-shadow:  0 1px 1px var(--btn-color);
     
         }
         .navbar ul  {
