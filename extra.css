@@ -107,9 +107,9 @@
     align-items: center;
 }
 .Extra__fourth__section .video__box iframe{
-    width: 80vw;
+    width: 60vw;
     border-radius: 2rem;
-    height: 45vw;
+    height: 30vw;
 }
 
 .Extra__fifth__section .heading__box{
@@ -256,6 +256,13 @@
     .Extra__eighth__section .box__container .box,
     .Extra__second__section .heading__box{
         width: 100%;
+    }   
+}
+
+
+@media (max-width:420px){
+    .Extra__fourth__section .video__box iframe{
+        width: 100%;
+        height: 20rem;
     }
-    
 }

@@ -68,7 +68,7 @@ p{font-size: var(--p-fontsize);
     color: var(--para-color);  
 }
 body{
-    overflow-x: hidden;
+    width: 100vw;
 }
 span{
     color: var(--btn-color);
@@ -79,7 +79,7 @@ section{
 .header{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
   left: 0;
   right: 0;
@@ -167,21 +167,6 @@ header .navbar ul li .click{
     filter: hue-rotate(1deg);
     
 }
-
-@keyframes slide-fade-in {
-  form{
-    opacity: 0;
-    transform: translateY(5vh);
-  }
-}
-@media (prefers-reduced-motion){
-    .box{
-        view-timeline-name: --item-timeline;
-        animation: slide-fade-in both;
-        animation-timeline: --item-timeline;
-        animation-range:contain 0% contain 50% ;
-    }
-}
 .home__first__section .box__container .image .person{
     position: relative;
     top: -2rem;
@@ -232,6 +217,7 @@ header .navbar ul li .click{
     background-color:var(--white-color);
     margin-top: 2rem;
     cursor: pointer;
+    z-index: 1000;
 }
 
 .arrow i:hover{
@@ -412,6 +398,7 @@ header .navbar ul li .click{
 }
 .footer{
     background: var(--heading-color);
+    width: 100%;
 }
 .footer .box__container {
     display: flex;
