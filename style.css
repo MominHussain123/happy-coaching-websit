@@ -33,9 +33,6 @@
 html{
     font-size: 70%;
 }
-ul{
-    list-style: none;
-}
 .btn{
     font-size: var(--h2-fontsize);
     background-color: var(--btn-color);
@@ -128,6 +125,7 @@ header .logo a{
         gap: 1.5rem;
         justify-content: center;
         align-items: center;
+        list-style: none;
     }
     header .navbar ul li a{
     margin: 0;
@@ -136,6 +134,7 @@ header .logo a{
     }
 header .navbar ul li #head{
     color: var(--white-color);
+    height: 4rem;
     
 }
 header .navbar ul li .click{
