@@ -112,7 +112,8 @@
 }
 .Extra__fourth__section .box__container .box .column i{
     font-size: 2rem;
-    color: gold;
+    color: gold;    
+    margin-right: 5px;
 }
 
 .Extra__fourth__section .video__box{
