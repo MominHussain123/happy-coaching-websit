@@ -124,6 +124,7 @@
     .about__third__section .box__container .box .icons i{
         color: gold;
         font-size: 1.5rem;
+        margin-right: 5px;
     }
     .about__third__section .box__container .box .icons i:hover{
         opacity: 0.4;
