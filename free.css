@@ -223,11 +223,11 @@ h1{
 
 @keyframes animateimage{
     10%{
-       margin-top: -1rem;
+        margin-top: -1rem;
     }
     100%{
         margin-bottom: -0rem;
-   }
+    }
 
 }
 @media(max-width:450px){
@@ -282,12 +282,7 @@ h1{
         margin-top: 1rem;
     }
 
-    .free__fourth__section .image .img1,
-    .free__fourth__section .image .img2,
-    .free__fourth__section .image .img3,
-    .free__fourth__section .image .img4,
-    .free__fourth__section .image .img5,
-    .free__fourth__section .image .img6{
+    .free__fourth__section .image .img{
         position: static;
         margin: 0;
     }
