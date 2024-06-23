@@ -326,9 +326,9 @@ header .navbar ul li .click{
 .home__fifth__section .box__container .image{
     background-image: url(./image/‘free\ guide.jpg);
     background-size: cover;
-    max-width: 400px;
+    max-width: 300px;
     min-width: 100px;
-    height: 90vh;
+    height: 70vh;
     background-position: center;
     filter: hue-rotate(20deg);
 }
